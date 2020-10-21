@@ -1,0 +1,621 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Responsive*/
+@media screen and (max-width:600px){
+.HotLine{
+    font-size: 7px;
+}
+.titulo-principal{
+    width: 50%;
+    margin: auto;
+}
+.icones>img{
+    width: 100%;
+    height: auto;
+    max-width: 25px;
+}
+.navegador-prin{
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+}
+.textos-shopNow{
+    line-height: 50px;
+}
+.textos-shopNow>h3{
+    font-size: 14px;
+}
+.textos-shopNow>h2{
+    font-size: 14px;
+}
+.img-shopNow{
+    float: right;
+    width: 40%;
+    margin: auto;
+}
+.img-shopNow>img{
+    width: 100%;
+    height: 200px;
+}
+.myVehicles>h2{
+    font-size: 16px;
+}
+/*Part 3 Delivery Responsive*/
+.delivery-parts{
+    display: flex;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+.delivery-text{
+    width: 40%;
+    float: right;
+}
+/*Part 4 buy-objects Responsive*/
+.partsAndAssets{
+    padding-top: 20px;
+}
+.partsAndAssets>h3{
+    margin-bottom: 20px;
+}
+.partsAndAssets>img{
+    width: 100%;
+    height: 150px;
+    padding-top: 40px;
+}
+.newdiscover{
+    padding-top: 10px;
+}
+.newdiscover>img{
+    width: 100%;
+    height: 150px;
+}
+/*Part 5 Choose-parts Responsive */
+
+/* Part 6 Strong spending Responsive*/
+.strongSpeed>img{
+    width: 80%;
+    height: 150px;
+}
+/*Part 7 Service Kits Responsive*/
+.service-kits-titulos {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.Services-imagen>img{
+    width: 100%;
+    height: 200px;
+}
+.estrellas>img{
+    width: 100%;
+    height: 17px;
+}
+
+
+
+
+
+
+}
+
+/*--------------------1--------------------*/
+/*--------------------1.1--------------------*/
+.titulos-header {
+    display: flex;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.titulo-principal {
+    display: flex;
+    margin: auto;
+}
+.titulo-principal-img{
+    float: left;
+}
+.titulo-principal-text{
+    float: right;
+}
+.titulo-principal-text>h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.titulo-principal-text>h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.titulo-principal-img>img {
+    width: 70px;
+    height: 70px;
+}
+
+.HotLine {
+    line-height: 150px;
+    float: left;
+    text-transform: uppercase;
+    color: #414141;
+    margin: auto;
+}
+.icones {
+    float: right;
+    margin: auto;
+}
+.icones>img{
+    width: 40px;
+    height: 40px;
+
+}
+
+/*--------------------1.2--------------------*/
+
+.navegador-prin {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background: #2a2c3c;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navegador-prin>a {
+    margin: 20px;
+}
+
+#ShopDepartament {
+    background: orangered;
+    border: 1px solid orangereds;
+    padding: 16px;
+}
+
+/*--------------------2--------------------*/
+.compres {
+    display: flex;
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.shopNow {
+    background: #cfcfcf;
+    display: flex;
+    width: 70%;
+    height: 300px;
+
+}
+.textos-shopNow {
+    width: 50%;
+    float: right;
+    line-height: 75px;
+}
+.textos-shopNow>h3 {
+    margin-left: 15px;
+}
+.textos-shopNow>h2 {
+    margin-left: 15px;
+}
+#boton-shopNow {
+    background: orangered;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-left: 20px;
+    width: 50%;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.img-shopNow {
+    float: right;
+    width: 50%;
+    margin:auto ;
+}
+.img-shopNow>img{
+    width: 100%;
+    height: 250px;
+
+}
+
+.myVehicles {
+
+    width: 28%;
+    height: 280px;
+    margin: auto;
+    border: orangered 1px solid;
+    text-align: center;
+}
+.myVehicles>h2 {
+    margin: 15px;
+}
+.myVehicles>p {
+    margin: 15px;
+}
+#boton-myVehicles {
+    background: orangered;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 80%;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+/*--------------------3--------------------*/
+.delivery {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    border: solid 1px lightgray;
+    font-size: 13px;
+}
+
+.delivery-parts {
+    display: inline-block;
+    width: 20%;
+    margin: 15px 5px 5px 5px;
+    padding: 0 15px 0 15px;
+}
+.delivery-img{
+    width: 15%;
+    float: left;
+}
+.delivery-img>img {
+    width: 50px;
+    height: 40px;
+}
+.delivery-text{
+    width: 75%;
+    float: right;
+}
+.delivery-text>p{
+    font-size: 17px;
+    color: gray;
+}
+
+/*--------------------4--------------------*/
+.buy-objects {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-right: auto;
+}
+
+.partsAndAssets {
+    display: left;
+    width: 50%;
+    text-align: center;
+    background: #fdc635;
+    margin-right: 15px;
+}
+
+.newdiscover {
+    display: right;
+    width: 50%;
+    text-align: center;
+    background: #cacaca;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+
+.partsAndAssets>img{
+    width: 70%;
+    height: 250px;
+    padding-top: 40px;
+}
+
+.newdiscover>img{
+    width: 80%;
+    height: 250px;
+}
+
+
+/*--------------------5--------------------*/
+.choose-parts {
+    width: 80%;
+    margin: auto;
+}
+
+.titulos-choose-parts {
+    text-align: center;
+}
+
+.titulos-choose-parts h2 {
+    padding: 10px 0 10px 0;
+}
+
+.titulos-choose-parts h3 {
+    font-size: 12px;
+    padding: 10px 0 10px 0;
+}
+
+.totes-img-choose-parts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-choose-parts {
+    width: 12%;
+    margin: 20px 20px 20px 20px;
+}
+
+.img-choose-parts img {
+    width: 100%;
+    height: 150px;
+}
+
+/*--------------------6--------------------*/
+/*     background: url(../img/fondoSpeed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+*/
+.strongSpeed {
+    background-color: black;
+    color: white;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.StrongSpeed>img {
+    width: 50px;
+    height: 50px;
+}
+#boton-speed{
+    background: orangered;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 11spx;
+}
+
+/*--------------------7--------------------*/
+.service-kits {
+    width: 80%;
+    margin: auto;
+}
+#tachado{
+    text-decoration: line-through;
+}
+
+.service-kits-titulos {
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.Services-imagenes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Services-imagen {
+    width: 25%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.estrellas {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.estrellas>img {
+    width: 25%;
+    height: 17px;
+}
+
+
+/*--------------------8--------------------*/
+.advice {
+    background-color: #313342;
+    color: white;
+    text-align: center;
+    height: 200px;
+    line-height: 65px;
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.advice-titulos {
+    display: left;
+    width: 40%;
+    margin: auto;
+}
+
+.advice-titulos h2 {
+    text-transform: uppercase;
+}
+
+.advice-titulos p {
+    font-size: 14px;
+}
+
+.advice-botones {
+    display: right;
+    width: 40%;
+    margin: auto;
+}
+
+#boton-blanco {
+    background: transparent;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+#boton-naranja {
+    background: orangered;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/*--------------------9--------------------*/
+.tips {
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.contenedor>h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.servicio-cont {
+    display: flex;
+    width: 100%;
+}
+.servicio-ind{
+    width: 33%;
+    margin-right: 20px;
+}
+
+.servicio-ind>img {
+    width: 100%;
+    height: 250px;
+}
+.servicio-ind>h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+.servicio-ind>h4{
+    text-transform: uppercase;
+    color: #353535;
+}
+.servicio-ind>p{
+    color: gray;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+#ReadMore{
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*--------------------10--------------------*/
+footer {
+    background: #2c2c3c;
+    color: #a0a1a9;
+    width: 100%;
+    height: 400px;
+
+}
+
+.dentrofooter {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.cossas-footer{
+    width: 25%;
+}
+.cossas-footer>h3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.cossas-footer>p{
+    margin: 10px;
+}
+.cossas-footer>img {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.xarxes{
+    margin-top: 30px;
+}
+.xarxes>img{
+    justify-content: space-between;
+    width: 22px;
+    height: 22px;
+}
+
+.bajo-footer{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;   
+    border-top: 1px solid gray;
+    padding-top: 40px;
+}
+.coopyright{
+    float: left;
+    width: 50%;
+}
+.coopyright>p{
+    margin: 5px;
+}
+.fotos-footer{
+    float: right;
+    width: 50%;
+}
+.fotos-footer>img{
+    width: 40px;
+    height: 25px;
+    border-radius: 1px;
+    float: right;
+    margin: 5px;
+}
