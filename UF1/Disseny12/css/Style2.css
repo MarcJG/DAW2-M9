@@ -1,0 +1,100 @@
+/*Responsive*/
+@media screen and (max-width:600px){
+    .HotLine{
+        font-size: 7px;
+    }
+    .titulo-principal{
+        width: 50%;
+        margin: auto;
+    }
+    .icones>img{
+        width: 100%;
+        height: auto;
+        max-width: 25px;
+    }
+    .navegador-prin{
+        width: 100%;
+        font-size: 12px;
+        margin: 0;
+    }
+    .textos-shopNow{
+        line-height: 50px;
+    }
+    .textos-shopNow>h3{
+        font-size: 14px;
+    }
+    .textos-shopNow>h2{
+        font-size: 14px;
+    }
+    .img-shopNow{
+        float: right;
+        width: 40%;
+        margin: auto;
+    }
+    .img-shopNow>img{
+        width: 100%;
+        height: 200px;
+    }
+    .myVehicles>h2{
+        font-size: 16px;
+    }
+    /*Part 3 Delivery Responsive*/
+    .delivery-parts{
+        display: flex;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .delivery-text{
+        width: 40%;
+        float: right;
+    }
+    /*Part 4 buy-objects Responsive*/
+    .partsAndAssets{
+        padding-top: 20px;
+    }
+    .partsAndAssets>h3{
+        margin-bottom: 20px;
+    }
+    .partsAndAssets>img{
+        width: 100%;
+        height: 150px;
+        padding-top: 40px;
+    }
+    .newdiscover{
+        padding-top: 10px;
+    }
+    .newdiscover>img{
+        width: 100%;
+        height: 150px;
+    }
+    /*Part 5 Choose-parts Responsive */
+    
+    /* Part 6 Strong spending Responsive*/
+    .strongSpeed>img{
+        width: 80%;
+        height: 150px;
+    }
+    /*Part 7 Service Kits Responsive*/
+    .service-kits-titulos {
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        justify-content: space-evenly;
+        display: flex;
+    }
+    .Services-imagen>img{
+        width: 100%;
+        height: 200px;
+    }
+    .estrellas>img{
+        width: 100%;
+        height: 17px;
+    }
+    
+    
+    
+    
+    
+    
+    }

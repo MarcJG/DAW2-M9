@@ -1,149 +1,74 @@
 * {
+    
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*Responsive*/
-@media screen and (max-width:600px){
-.HotLine{
-    font-size: 7px;
-}
-.titulo-principal{
-    width: 50%;
-    margin: auto;
-}
-.icones>img{
-    width: 100%;
-    height: auto;
-    max-width: 25px;
-}
-.navegador-prin{
-    width: 100%;
-    font-size: 12px;
-    margin: 0;
-}
-.textos-shopNow{
-    line-height: 50px;
-}
-.textos-shopNow>h3{
-    font-size: 14px;
-}
-.textos-shopNow>h2{
-    font-size: 14px;
-}
-.img-shopNow{
-    float: right;
-    width: 40%;
-    margin: auto;
-}
-.img-shopNow>img{
-    width: 100%;
-    height: 200px;
-}
-.myVehicles>h2{
-    font-size: 16px;
-}
-/*Part 3 Delivery Responsive*/
-.delivery-parts{
-    display: flex;
-    width: 100%;
-    margin: 0 0 10px 0;
-}
-.delivery-text{
-    width: 40%;
-    float: right;
-}
-/*Part 4 buy-objects Responsive*/
-.partsAndAssets{
-    padding-top: 20px;
-}
-.partsAndAssets>h3{
-    margin-bottom: 20px;
-}
-.partsAndAssets>img{
-    width: 100%;
-    height: 150px;
-    padding-top: 40px;
-}
-.newdiscover{
-    padding-top: 10px;
-}
-.newdiscover>img{
-    width: 100%;
-    height: 150px;
-}
-/*Part 5 Choose-parts Responsive */
-
-/* Part 6 Strong spending Responsive*/
-.strongSpeed>img{
-    width: 80%;
-    height: 150px;
-}
-/*Part 7 Service Kits Responsive*/
-.service-kits-titulos {
-    width: 100%;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    justify-content: space-evenly;
-    display: flex;
-}
-.Services-imagen>img{
-    width: 100%;
-    height: 200px;
-}
-.estrellas>img{
-    width: 100%;
-    height: 17px;
-}
-
-
-
-
-
-
-}
 
 /*--------------------1--------------------*/
 /*--------------------1.1--------------------*/
-.header-superior{
+.header-gris{
     width: 100%;
-    height: 55%;
+    height: 35px;
     background-color:#eeeeee;
     color: rgb(58, 57, 57);
-    font-size: 10px;
+    font-size: 9px;
 }
-.header-footer{
-    width: 80%;
+.header-ochenta{
+    width: 70%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+
 }
-
-
-.partes-header-izquierda{
+.header-cincuenta1{
+    width: 80%;
+    display: flex;
+}
+.header-cincuenta2{
     width: 20%;
+    display: flex;
 }
 
-.partes-header-img{
-    width: 5%;
+.header-veinticinco-izquierda{
+    width: 40%;
+    display: flex;
+    line-height: 20px;
+}
+.header-veinticinco-derecha{
+    width: 40%;
+    display: flex;
+    line-height: 20px;
 }
 
-.partes-header-img>img{
+.header-img{
+    width: 10%;
+}
+.header-texto{
+    width: 90%;
+}
+.header-img>img{
     width: 20px;
     height: 20px;
 }
 
-.partes-header-derecha{
-    width: 25%;
-    text-align: right;
+.header-veinticinco{
+    line-height: 20px;
+    display: flex;
 }
+
+.parts{
+    color: orangered;
+    line-height: 20px;
+}
+
+
+
 /*--------------------1.2--------------------*/
 .titulos-header {
+    width: 70%;
     display: flex;
-    width: 80%;
     height: 150px;
     margin: auto;
     justify-content: space-evenly;
@@ -180,11 +105,12 @@
     float: left;
     text-transform: uppercase;
     color: #414141;
-    margin: auto;
+    margin-right: auto;
 }
 .icones {
+    line-height: 150px;
     float: right;
-    margin: auto;
+    margin-left: auto;
 }
 .icones>img{
     width: 40px;
@@ -193,42 +119,84 @@
 }
 
 /*--------------------1.3--------------------*/
-
-.navegador-prin {
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    margin: auto;
+.navegacio{
     background: #2a2c3c;
     height: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.navegador-prin {
+    width: 70%;
+    text-align: center;
+    margin: auto;
     line-height: 50px;
+    display: flex;
 }
 
-.navegador-prin>a {
+.navegador-prin>p {
     margin: 20px;
 }
 
-#ShopDepartament {
+.ShopDepartament {
+    width: 20%;
+    height: 48px;
     background: orangered;
-    border: 1px solid orangereds;
-    padding: 16px;
+    border: 1px solid orangered;
+    padding-right: 30px ;
+    padding-left: 30px;
+    justify-content: space-evenly;
 }
-
+.Home{
+    width: 9%;
+    height: 50px;  
+    margin-left: 5px; 
+}
+.Home>p>i{
+    margin-left: 5px;
+}
+.Shop{
+    width: 9%;
+    height: 50px;
+}
+.StoreList{
+    width: 12%;
+    height: 50px;
+}
+.Blog{
+    width: 10%;
+    height: 50px;
+}
+.Blog>p>i{
+    margin-left: 5px;
+}
+.Pages{
+    width: 10%;
+    height: 50px;
+}
+.Pages>p>i{
+    margin-left: 5px;
+}
+.Contact{
+    width: 11%;
+    height: 50px;
+}
 /*--------------------2--------------------*/
 .compres {
+    width: 70%;
     display: flex;
     text-transform: uppercase;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
 }
 
 .shopNow {
-    background: #cfcfcf;
+    background-image: url("../img/WhatsApp Image 2020-10-30 at 16.25.21.jpeg");
+    background-size:cover ;
     display: flex;
     width: 70%;
-    height: 300px;
+    height: 320px;
 
 }
 .textos-shopNow {
@@ -256,7 +224,7 @@
 
 .img-shopNow {
     float: right;
-    width: 50%;
+    width:30%;
     margin:auto ;
 }
 .img-shopNow>img{
@@ -266,9 +234,8 @@
 }
 
 .myVehicles {
-
-    width: 28%;
-    height: 280px;
+    width: 25%;
+    height: 300px;
     margin: auto;
     border: orangered 1px solid;
     text-align: center;
@@ -276,15 +243,26 @@
 .myVehicles>h2 {
     margin: 15px;
 }
+
 .myVehicles>p {
     margin: 15px;
+    padding-left: 30px;
+    line-height:40px ;
+    border: 1px solid grey;
+    background-color: #bbbbbb;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: left;
 }
+
 #boton-myVehicles {
     background: orangered;
     color: white;
     font-size: 15px;
     text-transform: uppercase;
     padding: 15px;
+    margin-bottom: 5px;
     width: 80%;
     border: 1px solid orangered;
     border-radius: 5px;
@@ -292,23 +270,23 @@
 
 /*--------------------3--------------------*/
 .delivery {
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     text-align: center;
     border: solid 1px lightgray;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .delivery-parts {
     display: inline-block;
     width: 20%;
-    margin: 15px 5px 5px 5px;
+    margin: 15px 0 5px 0;
     padding: 0 15px 0 15px;
 }
 .delivery-img{
-    width: 15%;
+    width: 10%;
     float: left;
 }
 .delivery-img>img {
@@ -320,13 +298,13 @@
     float: right;
 }
 .delivery-text>p{
-    font-size: 17px;
+    font-size: 15px;
     color: gray;
 }
 
 /*--------------------4--------------------*/
 .buy-objects {
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -354,20 +332,20 @@
 
 
 .partsAndAssets>img{
-    width: 70%;
-    height: 250px;
+    width: 60%;
+    height: 200px;
     padding-top: 40px;
 }
 
 .newdiscover>img{
-    width: 80%;
-    height: 250px;
+    width: 70%;
+    height: 200px;
 }
 
 
 /*--------------------5--------------------*/
 .choose-parts {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -377,11 +355,13 @@
 
 .titulos-choose-parts h2 {
     padding: 10px 0 10px 0;
+    text-transform: uppercase;
 }
 
 .titulos-choose-parts h3 {
     font-size: 12px;
     padding: 10px 0 10px 0;
+    color: gray;
 }
 
 .totes-img-choose-parts {
@@ -433,7 +413,7 @@
 
 /*--------------------7--------------------*/
 .service-kits {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 #tachado{
@@ -533,7 +513,7 @@
 
 /*--------------------9--------------------*/
 .tips {
-    width: 80%;
+    width: 70%;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
