@@ -210,7 +210,7 @@
 .textos-shopNow>h2 {
     margin-left: 15px;
 }
-#boton-shopNow {
+.boton-shopNow {
     background: orangered;
     color: white;
     font-size: 15px;
@@ -256,14 +256,14 @@
     text-align: left;
 }
 
-#boton-myVehicles {
+.boton-myVehicles {
     background: orangered;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     padding: 15px;
     margin-bottom: 5px;
-    width: 80%;
+    width: 86%;
     border: 1px solid orangered;
     border-radius: 5px;
 }
@@ -314,22 +314,23 @@
 }
 
 .partsAndAssets {
-    display: left;
     width: 50%;
     text-align: center;
     background: #fdc635;
     margin-right: 15px;
 }
 
+.partsAndAssets > h3{
+    font-size: 12px;
+}
+
 .newdiscover {
-    display: right;
     width: 50%;
     text-align: center;
     background: #cacaca;
     margin-left: 15px;
     text-transform: uppercase;
 }
-
 
 .partsAndAssets>img{
     width: 60%;
@@ -389,26 +390,67 @@
     background-color: black;
     color: white;
     height: 350px;
-    margin: auto;
-    text-align: center;
-    line-height: 100px;
     text-transform: uppercase;
+    display: flex;
 }
 
-.StrongSpeed>img {
-    width: 50px;
-    height: 50px;
+.contenedorStrongSpeed{
+    display: block;
+    margin-left:200px ;
+    width: 40%;
+}
+
+.tituloStrong{
+    width: 40%;
+    height: 75px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.numeros{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+.numero>h3{
+    border: 1px solid white;
+    color: orangered;
+    padding: 20px;
+    text-align: center;  
+}
+.numero>p{
+    font-size:12px ;
+    text-align: center;
+    padding-top: 15px;
+}
+.boton{
+    width: 30%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 35px ;
 }
 #boton-speed{
     background: orangered;
     color: white;
     border-radius: 5px;
     border: 1px solid orangered;
-    width: 100px;
-    height: 50px;
+    width: 140px;
+    height: 55px;
     margin: 5px;
     text-transform: uppercase;
     font-size: 11spx;
+}
+.StrongSpeedImg{
+    width: 60%;
+}
+.StrongSpeedImg>img{
+    width: auto;
+    height: auto;
 }
 
 /*--------------------7--------------------*/
