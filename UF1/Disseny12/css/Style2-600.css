@@ -2,10 +2,6 @@
 @media screen and (max-width:600px){
     /*Header*/
     /*Header Gris*/
-    .header-gris {
-        height: 45px;
-
-    }
     .header-ochenta {
         width: 100%;
     }
@@ -81,7 +77,7 @@
         width: 95%;
     }
     .delivery-parts{
-        width: 35%;
+        width: 50%;
     }
     /*buy-objects*/
     .buy-objects {
@@ -94,7 +90,7 @@
         margin-bottom: 20px;
     }
     .partsAndAssets>img{
-        width: auto;
+        width: 100px;
         height: 150px;
         padding-top: 40px;
     }
@@ -123,10 +119,7 @@
         width: auto;
         display: inline;
     }
-    .strongSpeed>img{
-        width: 90%;
-        height: 150px;
-    }
+
     .contenedorStrongSpeed {
         width: auto;
         margin: 0;
@@ -145,8 +138,12 @@
     .StrongSpeedImg {
         width: auto;
     }
-    .StrongSpeedImg {
-        width: auto;
+    .divStrongSpeedImg {
+        width: 50%;
+        margin: auto;
+    }
+    .divStrongSpeedImg>img{
+        width: 300px;
     }
 
     /*Part 7 Service Kits Responsive*/
@@ -196,6 +193,10 @@
     }
 
     /*footer*/
+
+    .dentrofooter{
+        display: flex;
+    }
     .dentrofooter {
         width: 90%;
         height: auto;

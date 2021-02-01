@@ -1,9 +1,6 @@
 @media screen and (max-width:400px){
     /*Header*/
     /*Header Gris*/
-    .header-gris {
-        height: auto;
-    }
     .header-cincuenta1 {
         width: 70%;
         display: inline;
@@ -73,6 +70,7 @@
         height: 150px;
     }
 
+
     /* Part 6 Strong spending Responsive*/
     .tituloStrong{
         width: 90%;
@@ -81,8 +79,12 @@
     .tituloStrong>h2{
         font-size: 20px;
     }
-    .StrongSpeedImg>img {
-        width: 400px;
+    .numeros{
+        width: 90%;
+    }
+    .divStrongSpeedImg>img {
+        width: 300px;
+        margin: auto;
     }
 
     /*Part 7 Service Kits Responsive*/
