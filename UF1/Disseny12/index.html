@@ -7,6 +7,7 @@
     <title>Disseny12</title>
     <link rel="stylesheet" href="css/Style.css">
     <link rel="stylesheet" href="css/Style2.css">
+    <link rel="stylesheet" href="css/Style3.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
@@ -63,7 +64,12 @@
                         </div>
 
                         <div class="parts">
-                            <h3>USD<i class="fas fa-caret-down"></i></h3>
+                            <div class="classh3">
+                                <h3>USD</h3>   
+                            </div>
+                            <div class="classi">
+                                <i class="fas fa-caret-down"></i>
+                            </div>
                         </div>
 
                     </div>
@@ -71,11 +77,16 @@
                     <div class="header-veinticinco">
 
                         <div class="part">
-                            <h3 style="margin-left: 30px;">Language: </h3>
+                            <h3>Language: </h3>
                         </div>
 
                         <div class="parts">
-                            <h3>EN<i class="fas fa-caret-down"></i></h3>
+                            <div class="classh3">
+                                <h3>EN</h3>   
+                            </div>
+                            <div class="classi">
+                                <i class="fas fa-caret-down"></i>
+                            </div>
                         </div>
 
                     </div>
@@ -143,16 +154,16 @@
             <div class="shopNow">
                 <div class="textos-shopNow">
                     <h3>interior items for</h3>
-                    <h2>Lazang class</h2>
+                    <h2><span style="color: orangered;">Lazang</span>  class</h2>
                     <button class="boton-shopNow">Shop Now</button>
                 </div>
             </div>
 
             <aside class="myVehicles">
                 <h2>My vehicles</h2>
-                <p>--Make--</p>
-                <p>--Model--</p>
-                <p>--Year--</p>
+                <p >--Make--</p>
+                <p class="make">--Model--</p>
+                <p class="make">--Year--</p>
                 <button class="boton-myVehicles">search</button>
             </aside>
         </section>
@@ -210,12 +221,14 @@
             </section>
 
             <section class="newdiscover">
-                <h2>Flat 20% off</h2>
-                <h2>new discover engines</h2>
-                <h3>
-                    <nav><a href="#">shopNow</a></nav>
-                </h3>
-                <img src="img/cocheFlat20_.png" alt="cocheFlat20%">
+                    <h2>flat <span style="color: orangered;">20% off</span></h2>
+                    <h2>new discover engines</h2>
+                <div class="cocheIH3">
+                    <h3>
+                        <a href="#" style="color: orangered;">shopNow</a>
+                    </h3>
+                    <img src="img/cocheFlat20_.png" alt="cocheFlat20%">
+                </div>
             </section>
         </div>
 
@@ -278,47 +291,49 @@
 
         <!--6-->
         <section class="strongSpeed">
-            <div class="contenedorStrongSpeed">
+            <div class="maincontenedorStrong">
+                <div class="contenedorStrongSpeed">
 
-                <div class="tituloStrong">
-                    <h2>strong spending customers</h2>
-                </div>  
+                    <div class="tituloStrong">
+                        <h2>strong spending customers</h2>
+                    </div>  
 
-                <div class="numeros">
-                    <div class="numero">
-                        <h3>78</h3>
-                        <p>days</p>
+                    <div class="numeros">
+                        <div class="numero">
+                            <h3>78</h3>
+                            <p>days</p>
+                        </div>
+                        <div class="numero">
+                            <h3>10</h3>
+                            <p>Hours</p>
+                        </div>
+                        <div class="numero">
+                            <h3>47</h3>
+                            <p>minutes</p>
+                        </div>
+                        <div class="numero">
+                            <h3>05</h3>
+                            <p>seconds</p>
+                        </div>
                     </div>
-                    <div class="numero">
-                        <h3>10</h3>
-                        <p>Hours</p>
-                    </div>
-                    <div class="numero">
-                        <h3>47</h3>
-                        <p>minutes</p>
-                    </div>
-                    <div class="numero">
-                        <h3>05</h3>
-                        <p>seconds</p>
+
+                    <div class="boton">
+                        <button id="boton-speed">see details</button>            
                     </div>
                 </div>
-
-                <div class="boton">
-                    <button id="boton-speed">see details</button>            
+                
+                <div class="StrongSpeedImg">
+                    <img src="img/coche_cutre.jpg" alt="cocheNaranja">
                 </div>
 
-            </div>
-
-            <div class="StrongSpeedImg">
-                <img src="img/CocheStrong.png" alt="cocheNaranja">
-            </div>    
+            </div>  
             
         </section>
 
         <!--7-->
         <section class="service-kits">
             <div class="service-kits-titulos">
-                <h2>Service Kits</h2>
+                <h2 style="color: orangered; text-decoration: underline;"> <span>Service Kits </span> </h2>
                 <h2>Trending</h2>
                 <h2>Furniture</h2>
             </div>
@@ -328,9 +343,7 @@
                     <div class="estrellas">
                         <h3>ORTTOMAN TURBO</h3>
                         <img src="img/estrellas.png" alt="5 estrellas">
-                        <p>$79.90</p>
-                        <!--tiene que estar tachado-->
-                        <p id="tachado">$78.00</p>
+                        <p><span class="tachado">$79.90</span><span class="notachado">$78.00</span></p>
                     </div>
                 </div>
                 <div class="Services-imagen">
@@ -338,9 +351,7 @@
                     <div class="estrellas">
                         <h3>Earphone Case</h3>
                         <img src="img/estrellas.png" alt="5 estrellas">
-                        <p id="tachado">$49.90</p>
-                        <!--tiene que estar tachado-->
-                        <p>$78.00</p>
+                        <p ><span class="tachado">$49.90</span><span class="notachado">$29.90</span></p>
                     </div>
                 </div>
                 <div class="Services-imagen">
@@ -364,9 +375,7 @@
                     <div class="estrellas">
                         <h3>Auto Oil</h3>
                         <img src="img/estrellas.png" alt="5 estrellas">
-                        <p id="tachado">$29.90</p>
-                        <!--tiene que estar tachado-->
-                        <p>$29.00</p>
+                        <p ><span class="tachado">$29.90</span><span class="notachado">$29.00</span></p>
                     </div>
                 </div>
                 <div class="Services-imagen">
@@ -374,9 +383,7 @@
                     <div class="estrellas">
                         <h3>Horrison</h3>
                         <img src="img/estrellas.png" alt="5 estrellas">
-                        <p id="tachado">$397.90</p>
-                        <!--tiene que estar tachado-->
-                        <p>$350.90</p>
+                        <p ><span class="tachado">$397.90</span><span class="notachado">$350.90</span></p>
                     </div>
                 </div>
                 <div class="Services-imagen">
@@ -400,24 +407,27 @@
 
         <!--8-->
         <section class="advice">
-            <div class="advice-titulos">
-                <h2>Do you wnat advice?</h2>
-                <p>Can't find whar you're looking for? Contact us now</p>
-            </div>
-            <div class="advice-botones">
-                <button id="boton-blanco">Hotline: +0(800) 423-754</button>
-                <button id="boton-naranja">send us a text message</button>
+            <div class="advice-container">
+                <div class="advice-titulos">
+                    <h2>Do you want advice?</h2>
+                    <p>Can't find whar you're looking for? Contact us now</p>
+                </div>
+                <div class="advice-botones">
+                    <button id="boton-blanco">Hotline: +0(800) 423-754</button>
+                    <button id="boton-naranja">send us a text message</button>
+                </div>
             </div>
         </section>
-
+        <!--9-->
         <section class="tips">
             <div class="contenedor">
                 <h2 class="titulo"> Tips on the car</h2>
                 <div class="servicio-cont">
                     <div class="servicio-ind">
                         <img src="img/imgbuyautoparts.png" alt="buyautoparts">
-                        <h3>New form buyautoparts: magnetic</h3>
-                        <h4>Air conditioning</h4>
+                        <h3>New form buyautoparts:</h3>
+                        <h3> magnetic</h3>
+                        <h4>AIR CONDITIONING - by apar</h4>
                         <p>Like turbochargers and dual-clutch transmissions, active suspension is supercar technology
                             that has finally made its way to more "normal" cars. Oddly enough, its's the 3-hole box</p>
                         <p id="ReadMore">read more</p>
@@ -425,7 +435,7 @@
                     <div class="servicio-ind">
                         <img src="img/imgupgrade.png" alt="Upgrade">
                         <h3>Upgrade for the e30 and e36 3 series</h3>
-                        <h4>Auto parts, brakes</h4>
+                        <h4>AUTO PARTS, BRAKES - by apar</h4>
                         <p>While they were the darling of the "yuppie" class when new, the E30 and E36 BMW 3-Series from
                             the 1980's and 1990's have now settled somewhere between. Oddly...</p>
                         <p id="ReadMore">read more</p>
@@ -433,7 +443,7 @@
                     <div class="servicio-ind">
                         <img src="img/imgfix.png" alt="fix">
                         <h3>Fix your ride, protect the environment</h3>
-                        <h4>Car Fail, car fun, car news</h4>
+                        <h4>CAR FAIL, CAR FUN, CAR NEWS - by apar</h4>
                         <p>Cars are some of the biggest sources of pollution un the environment, and it doesn't help if
                             your daily driver is in bad shape because it's very likely...</p>
                         <p id="ReadMore">read more</p>
@@ -486,7 +496,7 @@
         </div>
         <div class="bajo-footer">
             <div class="coopyright">
-                <p>Copyright 2020 | APAR.All Rights Reserverd</p>
+                <p>Copyright 2020 | <span style="color: orangered;">APAR</span> .All Rights Reserverd</p>
             </div>
             <div class="fotos-footer">
                 <img src="img/tarjetaMasterCard2.png" alt="MasterCard2">
