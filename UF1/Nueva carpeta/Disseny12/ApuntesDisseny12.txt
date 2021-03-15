@@ -1,3 +1,0 @@
-En la classe my vehicles la part de make ha de tenir el fons blanc
-
-En la class newdiscover el text 205 off ha d'estar de color orangered

@@ -3,29 +3,13 @@
     outline: 1px solid red !important;
 }
 */
-@font-face{
+@font-face {
     font-family: "Main title";
-    src: url(../fonts/Lato/Lato-Light.ttf)
-format("truetype")
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
 }
-@media screen and (max-width:400px){
-    .items-container{
-        flex-direction: column;
-    }
-    .item{
-        width: 200px;
-        margin: auto;
-        padding-bottom: 1rem;
-    }
-    h2{
-        text-align: center;
-        padding-left: 0px;
-        font-size: 2rem;
-    }
-    .logo{
-        padding-top: 1,1rem;
-
-    }
+@font-face {
+    font-family: Text;
+    src: url(../fonts/Lato-Light.ttf) format("truetype");
 }
 .container{
     max-width: 800px;
@@ -89,6 +73,25 @@ hr{
 }
 .item{
     text-align: center;
+}
+@media screen and (max-width:400px){
+    .items-container{
+        flex-direction: column;
+    }
+    .item{
+        width: 200px;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    h2{
+        text-align: center;
+        padding-left: 0px;
+        font-size: 2rem;
+    }
+    .logo{
+        padding-top: 1,1rem;
+
+    }
 }
 @media screen and (max-width:570px){
     .item>h3{

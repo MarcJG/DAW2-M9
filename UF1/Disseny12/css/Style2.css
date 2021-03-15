@@ -1,0 +1,214 @@
+/*Responsive*/
+@media screen and (max-width:600px){
+    /*Header*/
+    /*Header Gris*/
+    .header-gris {
+        height: 45px;
+
+    }
+    .header-ochenta {
+        width: 100%;
+    }
+    .header-cincuenta1 {
+        width: 60%;
+        justify-content: space-around;
+    }
+    .header-cincuenta2 {
+        width: 40%;
+    }
+
+    .header-veinticinco-izquierda {
+        width: 100%;
+    }
+    .header-img {
+        width: auto;
+    }
+    .header-veinticinco-derecha {
+        width: 100%;
+    }
+    /*Titulos Header*/
+
+    .titulos-header {
+        width: 90%;
+    }
+    .HotLine{
+        font-size: 12px;
+    }
+    .titulo-principal{
+        width: 35%;
+        margin: auto;
+    }
+    .titulo-principal-img>img {
+        width: 50px;
+        height: 50px;
+    }
+    .titulo-principal-text>h1 {
+        font-size: 40px;
+    }
+    /*Navegacio*/
+
+    .navegador-prin {
+        width: 90%;
+    }
+    .ShopDepartament {
+        width: 10%;
+        padding-right: 30px;
+        padding-left: 30px;
+        justify-content: space-between;
+    }
+
+    /*Main*/
+    /*Compres*/
+    .compres {
+        width: 90%;
+    }
+    .textos-shopNow {
+        width: 100%;
+        line-height: 50px;
+    }
+    
+    .textos-shopNow>h3{
+        font-size: 14px;
+    }
+    .textos-shopNow>h2{
+        font-size: 14px;
+    }
+    .myVehicles>h2{
+        font-size: 16px;
+    }
+    /*Delivery*/
+    .delivery {
+        width: 95%;
+    }
+    .delivery-parts{
+        width: 35%;
+    }
+    /*buy-objects*/
+    .buy-objects {
+        width: 95%;
+    }    
+    .partsAndAssets{
+        padding-top: 20px;
+    }
+    .partsAndAssets>h3{
+        margin-bottom: 20px;
+    }
+    .partsAndAssets>img{
+        width: auto;
+        height: 150px;
+        padding-top: 40px;
+    }
+    .newdiscover{
+        padding-top: 10px;
+    }
+    .newdiscover>h2{
+        font-size: 15px;
+    }
+    /*Part 5 Choose-parts Responsive */
+    .choose-parts {
+        width: 90%;
+    }
+    .totes-img-choose-parts {
+        width: 95%;
+    }
+    .img-choose-parts {
+        width: 20%;
+    }
+    
+    /* Part 6 Strong spending Responsive*/
+    .strongSpeed {
+        height: auto;
+    }
+    .maincontenedorStrong{
+        width: auto;
+        display: inline;
+    }
+    .strongSpeed>img{
+        width: 90%;
+        height: 150px;
+    }
+    .contenedorStrongSpeed {
+        width: auto;
+        margin: 0;
+        justify-content: space-around;
+    }
+    .tituloStrong {
+        text-align: center;
+    }
+    .numeros {
+        width: auto;
+    }
+    .boton {
+        padding-top: 5px;
+        margin: auto;
+    }
+    .StrongSpeedImg {
+        width: auto;
+    }
+    .StrongSpeedImg {
+        width: auto;
+    }
+
+    /*Part 7 Service Kits Responsive*/
+    .service-kits{
+        width: 90%;
+    }
+    .service-kits-titulos {
+        width: auto;
+        font-size: 13px;
+    }
+    .Services-imagen>img{
+        width: auto;
+        max-width: 100px;
+        height: 200px;
+    }
+    .estrellas>img{
+        width: auto;
+    }
+    .estrellas>h3{
+        font-size: 13px;
+    }
+    .estrellas>p{
+        font-size: 12px;
+    }
+    /*Part 8 advice*/
+    .advice-container{
+        width: 90%;
+    }
+    .advice-titulos>h2 {
+        font-size: 15px;
+    }
+    .advice-titulos>p {
+        font-size: 12px;
+    }
+    /*Part 9 tips*/
+    .tips {
+        width: 90%;
+    }
+    .servicio-cont{
+        display: inline;
+        width: auto;
+        height: auto;
+    }
+    .servicio-ind{
+        width: 80%;
+        margin: auto;
+    }
+
+    /*footer*/
+    .dentrofooter {
+        width: 90%;
+        height: auto;
+        font-size: 12px;
+    }
+    .cossas-footer {
+        text-align: center;
+    }
+    .fotos-footer>img{
+        width: 25px;
+    }
+    .bajo-footer{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    }

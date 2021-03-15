@@ -9,10 +9,10 @@
 /*--------------------1.1--------------------*/
 .header-gris {
     width: 100%;
-    height: auto;
+    height: 35px;
     background-color: #eeeeee;
     color: rgb(58, 57, 57);
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .header-ochenta {
@@ -43,7 +43,6 @@
     width: 40%;
     display: flex;
     line-height: 20px;
-    justify-content: space-around;
 }
 
 .header-img {
@@ -62,7 +61,6 @@
 .header-veinticinco {
     line-height: 20px;
     display: flex;
-    margin-right: 15px;
 }
 
 .parts {
@@ -259,8 +257,7 @@
 
 .myVehicles {
     width: 25%;
-    height: auto;
-    min-height: 300px;
+    height: 300px;
     margin: auto;
     border: orangered 1px solid;
     text-align: center;
@@ -336,17 +333,18 @@
 .buy-objects {
     width: 70%;
     display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-top: 15px;
     margin-bottom: 40px;
     margin-right: auto;
-    justify-content: space-between;
 }
 
 .partsAndAssets {
     width: 50%;
     text-align: center;
     background: #fdc635;
+    margin-right: 15px;
     color: rgb(41, 39, 39);
 }
 
@@ -391,11 +389,12 @@
 .partsAndAssets>img {
     width: 70%;
     height: auto;
-    padding-bottom: 0;
+    padding-top: 30px;
 }
 
 .cocheIH3>img {
-    width: 60%;
+    width: auto;
+    max-width: 60%;
     height: 205px;   
 }
 
@@ -472,6 +471,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: 60%;
+
 }
 
 .numero>h3 {
@@ -516,7 +516,6 @@
     width: 70%;
     margin: auto;
 }
-
 .estrellas>p{
     justify-content: space-between;   
 }
@@ -552,6 +551,7 @@
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
+
 }
 .estrellas {
     width: 100%;
@@ -659,7 +659,7 @@
 
 .servicio-ind>h3 {
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 18px;
     margin-top: 5px;
     margin-bottom: 5px;
     color: #333333;
@@ -667,14 +667,14 @@
 
 .servicio-ind>h4 {
     color: #353535;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
 }
 
 .servicio-ind>p {
     color: gray;
     text-align: justify;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 20px;
     margin-top: 10px;
 }
